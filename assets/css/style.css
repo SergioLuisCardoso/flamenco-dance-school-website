@@ -125,6 +125,115 @@ header .icons #menu-bars{
     display: none;
 }
 
+/***********************/
+/**** about section ****/
+/***********************/
+
+.about{
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.about .heading h1{
+    color: #40E0D0;
+    font-size: 55px;
+    text-align: center;
+    margin: 35px;
+}
+
+.about .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.about .container .hero-content{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+}
+
+.about .container .hero-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about .container .hero-content p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.about .container .hero-content button{
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.about .container .hero-content button:hover{
+    background-color: #ff6347;
+    transform: scale(1.1);
+}
+
+.about .container .hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+}
+
+.about .container .hero-image img{
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .about .heading h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .about{
+        margin: 0px;
+    }
+
+    .about .container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;    
+    }
+
+    .about .container .hero-content{
+        width: 100%;
+        margin: 35px 0;
+    }
+
+    .about .container .hero-content h2{
+        font-size: 30px;
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
 /* media queries */
 
 @media (max-width: 991px){
