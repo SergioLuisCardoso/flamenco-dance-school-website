@@ -153,6 +153,7 @@ header .icons #menu-bars{
     flex: 1;
     width: 600px;
     margin: 0px 25px;
+    animation: fadeInUp 2s ease;
 }
 
 .about .container .hero-content h2{
@@ -189,6 +190,7 @@ header .icons #menu-bars{
     flex: 1;
     width: 600px;
     margin: auto;
+    animation: fadeInRight 2s ease;
 }
 
 .about .container .hero-image img{
@@ -220,13 +222,45 @@ header .icons #menu-bars{
     }
 
     .about .container .hero-content h2{
-        font-size: 30px;
-        
+        font-size: 30px;        
     }
 
+    .about .container .hero-content p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
 
+    .about .container .hero-content button{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 
+    .about .container .hero-image{
+        width: 100%;
+    }
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
 
+    100%{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 
