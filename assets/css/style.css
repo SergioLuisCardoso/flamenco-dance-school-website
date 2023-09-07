@@ -267,13 +267,155 @@ header .icons #menu-bars{
 /**** project section ****/
 /*************************/
 
+.project{       
+    background-color: #7aacff;
+    overflow: hidden;
+    text-align: center; /* Centraliza o texto e o cabeçalho na seção */
+    
+    
 
-.project .container h1{
+}
+
+.project .container{
+    padding: 0px; /* Espaçamento interno da segunda seção (ajuste conforme necessário) */
+    margin-top: 20px; /* Espaçamento superior para separar as seções (ajuste conforme necessário) */
+    align-items: center;
+    width: 85vmin;
+
+    /*background-color: #7aacff;*/
+    transform: translate(70%, -12%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    /*border: 1px solid #ffffff;*/
+}
+
+@media (max-width: 768px){
+    .project .container{
+        padding: 0px;
+        transform: translate(9%, -20%);
+    }
+}
+
+
+.project .container .wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+    margin-top: 150px; /* Adicione espaço entre o texto e o slider */
+
+}
+
+.project .container img {
+    max-width: 100%; /* Garante que as imagens não excedam o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço extra abaixo das imagens */
+    margin: 0 auto; /* Centraliza horizontalmente as imagens */
+  }
+
+
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(0);
+    }
+
+    30%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+
+    75%{
+        transform: translateX(-200%);
+    }
+
+    80%{
+        transform: translateX(-300%);
+    }
+
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+
+
+.project .container .wrapper img{
+    width: 100%;
+}
+
+
+
+
+.project .heading h1{
     color: #F0E68C;
     font-size: 55px;
     text-align: center;
     margin: 35px;
 }
+
+.project .project-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 1px;
+    color: #666;
+    padding: 0px 40px; /* Margem texto abaixo título */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
