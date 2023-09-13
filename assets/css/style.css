@@ -150,12 +150,19 @@ header .icons #menu-bars{
     margin: 35px;
 }
 
+
+
+
+
+
+
+
 .about .container{
     display: flex;
     justify-content:center;
     align-items: center;
     width: 90%;
-    margin: 65px auto;
+    margin: 30px auto;
 }
 
 .about .container .hero-content{
