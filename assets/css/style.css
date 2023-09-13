@@ -153,7 +153,7 @@ header .icons #menu-bars{
 @media screen and (min-width: 768px) {
     .about .heading h1{
         font-size: 800px;
-        /*margin-top: 5px;*/
+        margin-top: 5px;
     }
 }
 
