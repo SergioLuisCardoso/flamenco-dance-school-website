@@ -29,7 +29,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
 .container{
     padding-top: 9rem;
     width: 100%;
@@ -38,6 +37,14 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+hr {
+    border: none;
+    background-color: #f8f8f8;
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
 }
 
 .swiper{
@@ -282,7 +289,7 @@ header .icons #menu-bars{
     width: 85vmin;
 
     /*background-color: #7aacff;*/
-    transform: translate(70%, -12%);
+    transform: translate(80%, -12%);
     top: 50%;
     left: 50%;
     overflow: hidden;
@@ -293,7 +300,14 @@ header .icons #menu-bars{
     .project .container{
         padding: 0px;
         transform: translate(9%, -20%);
-    }
+    }   
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .project .container{
+        padding: 0px;
+        transform: translate(25%, -20%);
+    }   
 }
 
 
