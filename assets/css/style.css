@@ -439,7 +439,7 @@ transition: 0.5s;
     top:0;
 }
 
-.team .project-text p{
+.team .team-text p{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 50px;
@@ -491,6 +491,23 @@ transition: 0.5s;
     padding-top: 50px; 
 }
 
+.time .container{
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+    box-sizing: border-box;
+    border: 3px solid #f7d1cd;
+    border-radius: 2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
 .time .time-text p{
     font-size: 20px;
     line-height: 1.5;
@@ -500,6 +517,12 @@ transition: 0.5s;
     text-align: justify;
 }
     
+
+.time .container .time-image img{
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
     
     
 
