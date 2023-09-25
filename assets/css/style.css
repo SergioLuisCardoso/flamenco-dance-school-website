@@ -492,7 +492,7 @@ transition: 0.5s;
 }
 
 .time .container{
-    width: 85%;
+    width: 95%;
     height: auto;
     margin: 0px auto;
     box-sizing: border-box;
@@ -514,7 +514,7 @@ transition: 0.5s;
     margin-bottom: 50px;
     color: #666;
     padding: 0px 40px;
-    text-align: justify;
+    text-align: center;
 }
     
 
