@@ -389,7 +389,7 @@ header .icons #menu-bars{
 
 
 /*************************/
-/**** team section ****/
+/**** team section *******/
 /*************************/
 
 
@@ -478,7 +478,27 @@ transition: 0.5s;
     transform: scale(1.1);
 }
     
-    
+
+/*************************/
+/**** time section *******/
+/*************************/
+
+.time .heading h1{
+    color: #fa7f72;
+    font-size: 55px;
+    text-align: center;
+    padding: 35px;
+    padding-top: 50px; 
+}
+
+.time .time-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #666;
+    padding: 0px 40px;
+    text-align: justify;
+}
     
     
     
