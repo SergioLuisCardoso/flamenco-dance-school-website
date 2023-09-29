@@ -570,6 +570,9 @@ transition: 0.5s;
     background: #02171d;
 }
 
+.store-container .box img{
+    width: 100%;
+}
 .store-container .box:hover img{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
