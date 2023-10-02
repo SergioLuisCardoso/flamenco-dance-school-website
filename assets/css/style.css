@@ -648,20 +648,24 @@ transition: 0.5s;
     }
 
     header .navbar{
-         /* Esconde o menu em telas menores ao clicar no 'hamurguer'*/
+         /* Esconde o menu em telas menores ao clicar no 'hamburguer'*/
         position: absolute;
         top: 100%; left: 0; right: 0;
         background: #fff;
         border-top: .1rem solid rgba(0,0,0,.2);
         border-bottom: .1rem solid rgba(0,0,0,.2);
         padding: 1rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);        
     }
 
+    header .navbar:focus {
+        /* Estilo para a barra lateral quando ela recebe foco (quando um item do menu é clicado) */
+        display: none; /* ou qualquer estilo que você queira aplicar para esconder a barra */
+      }
 
     header .navbar.active{
         /* Exibe o menu em telas menores ao clicar 'hamburguer'*/
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    
     }
 
     header .navbar a{
