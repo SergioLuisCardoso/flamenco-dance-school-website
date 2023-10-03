@@ -546,6 +546,15 @@ transition: 0.5s;
     padding: 50px 100px;
 }
 
+.store .store-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #666;
+    padding: 0px 40px;
+    text-align: center;
+}
+
 .store-container .box{
     position: relative;
     padding: 10px;
