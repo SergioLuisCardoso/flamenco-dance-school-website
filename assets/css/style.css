@@ -543,7 +543,9 @@ transition: 0.5s;
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
     gap: 1rem;
     margin-top: 2rem;
-    padding: 50px 100px;
+    /* Bordas da página*/
+    /*padding: 50px 100px;*/
+    padding: 50px 50px;
 }
 
 .store .store-text p{
