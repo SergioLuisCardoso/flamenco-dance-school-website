@@ -407,7 +407,7 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap: 1.5rem;
     margin: 1.5rem;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/  
 }
 
 .team .team-container .team-box{
