@@ -475,7 +475,7 @@ transition: 0.5s;
 @media screen and (max-width: 767px){
     /* Fonte - Telas menores */
     .team .team-box .text p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: 0.4rem 0.1rem;
         padding-top: 1rem;
         padding-bottom: 6rem;
