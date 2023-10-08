@@ -472,6 +472,13 @@ transition: 0.5s;
     padding-bottom: 6rem;
 }
 
+.team .team-box .text-1 p{
+    font-size: 1rem;
+    margin: 0.4rem 0.1rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
 @media screen and (max-width: 767px){
     /* Fonte - Telas menores */
     .team .team-box .text p{
