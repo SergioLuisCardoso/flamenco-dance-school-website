@@ -627,9 +627,29 @@ transition: 0.5s;
 }
 
 
+/*************************/
+/**** contact section ****/
+/*************************/
 
 
 
+.contact .heading h1{
+    color: #6B8E23;
+    font-size: 55px;
+    text-align: center;
+    padding: 35px;
+    padding-top: 50px;    
+}
+
+.contact .contact-section{
+    min-height: 100vh;
+    background: url(/assets/img/contact-image-2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
