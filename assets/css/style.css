@@ -703,6 +703,54 @@ transition: 0.5s;
     color: #fff;
     border: none;
     width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.9;    
+}
+
+.contact .contact-form .send-btn{
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.contact .contact-form .send-btn:hover{
+    background: #0582E3;
+}
+
+/* Telas menores */
+@media screen and (max-width: 950px){
+    .contact .contact-section{
+        flex-direction: column;
+    }
+/* bordas laterais / formulário contato */
+    .contact .contact-info, .contact .contact-form{
+        margin: 30px 50px;
+    }
+    .contact .contact-form h2{
+        font-size: 30px;
+    }
+/* nome, e-mail, mensagem - um campo abaixo do outro  */
+    .contact .contact-form .text-box{
+        width: 100%;
+    }
+    
 }
 
 
