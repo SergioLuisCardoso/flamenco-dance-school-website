@@ -666,7 +666,46 @@ transition: 0.5s;
 
 .contact .contact-form{
     max-width: 700px;
+    margin-right: 50px;
 }
+
+.contact .contact-info, .contact .contact-form{
+    flex: 1;
+}
+
+.contact .contact-form h2{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-form .text-box{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact .contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact .contact-form textarea{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+
+
 
 
 
