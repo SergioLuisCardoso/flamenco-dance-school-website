@@ -643,12 +643,21 @@ transition: 0.5s;
 
 .contact .contact-section{
     min-height: 100vh;
-    background: url(/assets/img/contact-image-2.jpg) no-repeat;
+    background: url(/assets/img/contact-image-1.jpg) no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.contact .contact-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #666;
+    padding: 0px 40px;
+    text-align: center;
 }
 
 .contact .contact-info{
