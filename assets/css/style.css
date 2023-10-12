@@ -736,7 +736,7 @@ transition: 0.5s;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    transition-property: background;
+    /*transition-property: background;*/
 }
 
 .contact .contact-form .send-btn:hover{
