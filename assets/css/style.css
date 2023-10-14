@@ -762,6 +762,40 @@ transition: 0.5s;
 }
 
 
+/************************/
+/**** footer section ****/
+/************************/
+
+
+.footer{
+
+    width: 100%;
+    padding: 100px 15%;
+    background: rgb(207, 153, 160);
+    color: red;
+    display: flex;    
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer .col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;    
+}
+
+.footer .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efeefe;
+
+}
 
 
 
