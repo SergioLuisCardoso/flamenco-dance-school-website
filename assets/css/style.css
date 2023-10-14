@@ -804,6 +804,8 @@ transition: 0.5s;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
+    outline: none;
+    border: none;
 }
 
 
