@@ -808,6 +808,21 @@ transition: 0.5s;
     border: none;
 }
 
+.footer .col-2 form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer .col-3 .social-icons{
+    margin-top: 30px;
+    
+}
+
 
 
 
