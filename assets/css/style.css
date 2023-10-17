@@ -632,7 +632,6 @@ transition: 0.5s;
 /*************************/
 
 
-
 .contact .heading h1{
     color: #6B8E23;
     font-size: 55px;
@@ -769,71 +768,45 @@ transition: 0.5s;
 
 
 .footer{
-
-    width: 100%;
-    padding: 100px 15%;
     background: rgb(207, 153, 160);
-    color: red;
-    display: flex;    
+    box-sizing: border-box;
 }
 
-.footer div{
-    text-align: center;
+.footer-container{
+    background: rgb(207, 153, 160);
+    width: 100%;
+    padding: 70px 30px 20px;
 }
 
-.footer .col-2{
-    flex-grow: 2;
+.footer-container .social-icons{
+    display: flex;
+    justify-content: center;
 }
 
-.footer div h3{
-    font-weight: 300;
-    margin-bottom: 30px;
-    letter-spacing: 1px;    
-}
-
-.footer .col-1 a{
-    display: block;
+.footer-container .social-icons a{
     text-decoration: none;
-    color: #efeefe;
-    margin-bottom: 8px;
-}
-
-.footer .col-2 form input{
-    width: 400px;
-    height: 45px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    outline: none;
-    border: none;
-}
-
-.footer .col-2 form button{
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.footer .col-3 .social-icons{
-    margin-top: 30px;    
-}
-
-.footer .col-3 .social-icons i{
-    font-size: 22px;
+    padding: 10px;
+    background-color: rgb(233, 230, 230);
     margin: 10px;
-    cursor: pointer;    
+    border-radius: 50%;    
 }
 
+.footer-container .social-icons a i{
+    font-size: 2em;
+    color: #02171d;
+    opacity: 0.9;
+}
 
+/* Hover Effects on Social Icons */
+.footer-container .social-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
 
-
-
-
+.footer-container .social-icons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
 
 
 
