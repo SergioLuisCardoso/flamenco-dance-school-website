@@ -808,6 +808,32 @@ transition: 0.5s;
     transition: 0.5s;
 }
 
+.footer-container .footer-nav{
+    margin: 30px 0;
+}
+
+.footer-container .footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /* Eliminando marcadores (pontos) */
+}
+
+.footer-container .footer-nav ul li a{
+    color: #eee;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footer-container .footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+
+
 
 
 
