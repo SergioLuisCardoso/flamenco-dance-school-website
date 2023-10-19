@@ -724,7 +724,7 @@ transition: 0.5s;
 
 .contact .contact-form .send-btn{
     float: right;
-    background: #2E94E3;
+    background:#F0E68C;
     color: #fff;
     border: none;
     width: 120px;
@@ -739,7 +739,7 @@ transition: 0.5s;
 }
 
 .contact .contact-form .send-btn:hover{
-    background: #0582E3;
+    background: #f7e758;
 }
 
 /* Telas menores */
@@ -750,6 +750,7 @@ transition: 0.5s;
 /* bordas laterais / formulário contato */
     .contact .contact-info, .contact .contact-form{
         margin: 30px 50px;
+        font-size: 16px;
     }
     .contact .contact-form h2{
         font-size: 30px;
