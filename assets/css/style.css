@@ -631,6 +631,12 @@ transition: 0.5s;
 /**** contact section ****/
 /*************************/
 
+::-webkit-input-placeholder {
+    color: white;
+ }
+ :-moz-placeholder {
+    color: white;
+ }
 
 .contact .heading h1{
     color: #6B8E23;
@@ -708,7 +714,7 @@ transition: 0.5s;
 
 .contact .contact-form textarea{
     background: #585555;
-    color: #fff;
+    color: white;
     border: none;
     width: 100%;
     padding: 12px;
