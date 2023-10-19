@@ -841,6 +841,8 @@ transition: 0.5s;
     font-size: 15px;
 }
 
+
+
 .footer-bottom p{
     color: #eee;
 }
@@ -863,6 +865,11 @@ transition: 0.5s;
         text-align: center;
         margin: 5px;
     }
+
+    .footer-bottom{
+        font-size: 12px;
+    }
+    
 
 }
 
