@@ -689,7 +689,7 @@ transition: 0.5s;
 }
 
 .contact .contact-form .text-box{
-    background: #000;
+    background: #585555;
     color: #fff;
     border: none;
     width: calc(50% - 10px);
@@ -707,7 +707,7 @@ transition: 0.5s;
 }
 
 .contact .contact-form textarea{
-    background: #000;
+    background: #585555;
     color: #fff;
     border: none;
     width: 100%;
@@ -834,7 +834,7 @@ transition: 0.5s;
 
 
 .footer-bottom{
-    background-color: red;
+    background-color: rgb(212, 69, 124);
     padding: 20px;
     text-align: center;
     font-size: 15px;
