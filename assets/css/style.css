@@ -225,8 +225,9 @@ header .icons #menu-bars{
 
 @media screen and (max-width: 768px) {
     .about .heading h1{
-        font-size: 45px;
+        font-size: 37px;
         margin-top: 30px;
+        margin-bottom: 1px;
     }
 
     .about{
