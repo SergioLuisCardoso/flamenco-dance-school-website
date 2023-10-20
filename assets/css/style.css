@@ -95,6 +95,10 @@ header .logo i{
     color: black;    
 }
 
+header .logo span{
+    color: var(--caqui);   
+}
+
 header .navbar a{
     font-size: 1.46rem;
     border-radius: .5rem;
