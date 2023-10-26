@@ -675,6 +675,12 @@ transition: 0.5s;
     padding-top: 50px;    
 }
 
+@media (max-width: 768px){
+    .contact .heading h1{
+        font-size: 37px;  
+    }
+}
+
 .contact .contact-section{
     min-height: 100vh;
     background: url(/assets/img/contact-image-4.jpg) no-repeat;
