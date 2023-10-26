@@ -538,6 +538,12 @@ transition: 0.5s;
     padding-top: 50px; 
 }
 
+@media (max-width: 768px){
+    .time .heading h1{
+        font-size: 37px;  
+    }
+}
+
 .time .container{
     width: 97%;
     height: auto;
