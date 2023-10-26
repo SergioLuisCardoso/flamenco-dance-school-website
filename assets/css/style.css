@@ -397,6 +397,12 @@ header .icons #menu-bars{
     margin-top: 50px;
 }
 
+@media (max-width: 768px){
+    .project .heading h1{
+        font-size: 37px;
+    }
+}
+
 .project .project-text p{
     font-size: 20px;
     line-height: 1.5;
