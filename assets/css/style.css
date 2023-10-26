@@ -590,6 +590,12 @@ transition: 0.5s;
     padding: 35px;
     padding-top: 50px; 
 }
+
+@media (max-width: 768px){
+    .store .heading h1{
+        font-size: 37px;  
+    }
+}
 .store-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
