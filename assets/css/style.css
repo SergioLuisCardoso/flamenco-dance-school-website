@@ -548,7 +548,7 @@ transition: 0.5s;
     height: auto;
     margin: 0px auto;
     box-sizing: border-box;
-    border: 3px solid #f7d1cd;
+    /*border: 3px solid #f7d1cd;*/
     border-radius: 2rem;
     display: block;
     justify-content: center;
