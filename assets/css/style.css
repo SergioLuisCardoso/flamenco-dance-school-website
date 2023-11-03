@@ -167,8 +167,6 @@ header .icons #menu-bars{
     margin: 35px;
 }
 
-
-
 .about .container{
     display: flex;
     justify-content:center;
@@ -251,7 +249,8 @@ header .icons #menu-bars{
     }
 
     .about .container .hero-content h2{
-        font-size: 27px;        
+        font-size: 27px;
+        margin-bottom: 10px;    
     }
 
     .about .container .hero-content p{
