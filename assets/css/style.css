@@ -810,12 +810,12 @@ transition: 0.5s;
 
 
 .footer{
-    background: rgb(207, 153, 160);
+    background: #cf99a0;
     box-sizing: border-box;
 }
 
 .footer-container{
-    background: rgb(207, 153, 160);
+    background: #cf99a0;
     width: 100%;
     padding: 70px 30px 20px;
 }
