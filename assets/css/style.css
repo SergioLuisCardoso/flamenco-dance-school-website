@@ -97,7 +97,7 @@ header .logo i{
 }
 
 header .logo span{
-    color: var(--red);   
+    color: red;   
 }
 
 header .navbar a{
