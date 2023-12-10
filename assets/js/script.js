@@ -44,4 +44,4 @@ function showNextImage() {
     images[currentImageIndex].style.display = 'block';
 }
 
-setInterval(showNextImage, 3000); // Troca a imagem a cada 3 segundos
+setInterval(showNextImage, 2000); // Troca a imagem a cada 2 segundos
