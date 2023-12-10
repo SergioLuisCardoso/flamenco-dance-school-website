@@ -310,7 +310,7 @@ header .icons #menu-bars{
 
 .project .container{
     padding: 0px; /* Espaçamento interno da segunda seção (ajuste conforme necessário) */
-    margin-top: 20px; /* Espaçamento superior para separar as seções (ajuste conforme necessário) */
+    margin-top: 78px; /* Espaçamento superior para separar as seções (ajuste conforme necessário) */
     align-items: center;
     width: 85vmin;
 
@@ -321,6 +321,17 @@ header .icons #menu-bars{
     overflow: hidden;
     /*border: 1px solid #ffffff;*/
 }
+
+@media (max-width: 768px){
+    .project .container{
+        margin-top: 102px; /* Espaçamento superior para separar as seções (ajuste conforme necessário) */
+    }
+
+
+}
+
+
+
 
 @media (max-width: 768px){
     .project .container{
