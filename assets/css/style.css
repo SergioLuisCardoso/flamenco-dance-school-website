@@ -96,10 +96,12 @@ header .logo{
 
 
 header .logo i{
+    font-family: 'Mr Dafoe', cursive;
     color: black;    
 }
 
 header .logo span{
+    font-family: 'Mr Dafoe', cursive;
     color: red;   
 }
 
