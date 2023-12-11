@@ -88,7 +88,7 @@ header {
 }
 
 
-header .logo{
+.header .logo{
     color: var(--black);
     font-size: 2rem;
     font-weight: bolder;
@@ -97,6 +97,7 @@ header .logo{
 
 header .logo i{
     font-family: 'Mr Dafoe', cursive;
+    font-size: 25px;
     color: black;    
 }
 
